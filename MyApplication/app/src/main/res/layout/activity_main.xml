@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aaraf.myapplication.MainActivity"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:background="@android:color/transparent"
+        android:layout_height="170dp"
+        android:src="@drawable/yellow_logo"
+        android:id="@+id/btnYellow"
+        android:layout_weight="0.11" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:src="@drawable/artisti_logo"
+        android:id="@+id/btnArtisti"
+        android:layout_gravity="center_horizontal|top"
+        android:onClick="artistiPressed"
+        android:layout_weight="0.11" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:id="@+id/btnCatsEye"
+        android:src="@drawable/catseye_logo"
+        android:onClick="catsEyePressed"
+        android:layout_gravity="right|top" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:id="@+id/btnOrion"
+        android:src="@drawable/orion_logo"
+        android:onClick="orionPressed"
+        android:layout_gravity="left|center_vertical" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:id="@+id/btnBata"
+        android:src="@drawable/bata_logo"
+        android:onClick="bataPressed"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:id="@+id/btnFortuna"
+        android:src="@drawable/fortuna_logo"
+        android:onClick="fortunaPressed"
+        android:layout_gravity="right|center_vertical" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:id="@+id/btnWristBand"
+        android:src="@drawable/wristband_logo"
+        android:onClick="wristBandPressed"
+        android:layout_gravity="left|bottom" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:id="@+id/btnArong"
+        android:src="@drawable/arong_logo"
+        android:onClick="arongPressed"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:id="@+id/btnEcstasy"
+        android:src="@drawable/ecstasy_logo"
+        android:onClick="ecstasyPressed"
+        android:layout_gravity="right|bottom" />
+
+
+</FrameLayout>

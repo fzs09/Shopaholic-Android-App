@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aaraf.myapplication.orionActivity">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/artistiView"
+        android:src="@drawable/orion_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="130dp"
+        android:text="orion footware orion footware."
+        android:id="@+id/txtArtisti"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/artistiView"
+        android:layout_toEndOf="@+id/artistiView" />
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:text="Sandals"
+        android:id="@+id/btnNameBand"
+        android:layout_below="@+id/artistiView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:text="Cades"
+        android:id="@+id/btnCustomBand"
+        android:layout_below="@+id/txtArtisti"
+        android:layout_toRightOf="@+id/btnNameBand"
+        android:layout_toEndOf="@+id/btnNameBand" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:text="Belts"
+        android:id="@+id/btnPhotoMug"
+        android:layout_below="@+id/btnNameBand"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:text="Shoes"
+        android:onClick="oshoePressed"
+        android:id="@+id/btnPinBadges"
+        android:layout_below="@+id/btnCustomBand"
+        android:layout_toRightOf="@+id/btnNameBand"
+        android:layout_toEndOf="@+id/btnNameBand" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:text="Wallets"
+        android:id="@+id/btnWallet"
+        android:layout_below="@+id/btnPhotoMug"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:text="Converse"
+        android:id="@+id/btnConverse"
+        android:layout_below="@+id/btnPinBadges"
+        android:layout_toRightOf="@+id/btnPhotoMug"
+        android:layout_toEndOf="@+id/btnPhotoMug" />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Location"
+        android:id="@+id/btnOthers"
+        android:onClick="olocPressed"
+        android:layout_below="@+id/btnWallet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
